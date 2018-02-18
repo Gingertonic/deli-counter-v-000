@@ -1,5 +1,5 @@
 def line(queue)
-  if queue == []
+  if queue.empty?
     puts "The line is currently empty."
   else
     line = "The line is currently:"
